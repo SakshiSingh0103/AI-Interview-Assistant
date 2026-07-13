@@ -131,37 +131,37 @@ streamlit run app.py
 
 ### 🏠 Home Page
 
-![Home](screenshots/home.png)
+![Home](Screenshots/home.png)
 
 ---
 
 ### 📄 Resume Upload
 
-![Resume Upload](screenshots/resume_upload.png)
+![Resume Upload](Screenshots/resume_upload.png)
 
 ---
 
 ### 🎤 Interview Question
 
-![Interview](screenshots/interview.png)
+![Interview](Screenshots/interview.png)
 
 ---
 
 ### 📊 AI Feedback
 
-![Feedback](screenshots/feedback.png)
+![Feedback](Screenshots/feedback.png)
 
 ---
 
 ### 📈 Performance Dashboard
 
-![Dashboard](screenshots/dashboard1.png,dashboard2.png)
+![Dashboard](Screenshots/dashboard1.png,dashboard2.png)
 
 ---
 
 ### 📄 PDF Report
 
-![Report](screenshots/report.png)
+![Report](Screenshots/report.png)
 
 ## 🌟 Future Improvements
 
