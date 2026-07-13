@@ -103,6 +103,29 @@ Write a perfect answer that would impress an interviewer.
 Do NOT write anything outside this format.
 """
 
-    response = model.generate_content(prompt)
+    from google.api_core.exceptions import ResourceExhausted
 
-    return response.text
+    try:
+        response = model.generate_content(prompt)
+        return response.text
+
+    except ResourceExhausted:
+        return """
+    # Score
+    Score: 0/10
+
+    # Strengths
+    Unable to evaluate.
+
+    # Weaknesses
+    The AI service has temporarily reached its usage limit.
+
+    # Suggestions
+    Please try again in a few minutes.
+
+    # Ideal Answer
+    Evaluation is temporarily unavailable because the AI service quota has been exceeded.
+    """
+
+    except Exception as e:
+        return f"Error: {str(e)}"
