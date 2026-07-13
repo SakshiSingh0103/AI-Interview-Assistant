@@ -127,9 +127,41 @@ streamlit run app.py
 
 ## 📸 Screenshots
 
-> Add screenshots after deployment.
+## 📸 Application Preview
+
+### 🏠 Home Page
+
+![Home](screenshots/home.png)
 
 ---
+
+### 📄 Resume Upload
+
+![Resume Upload](screenshots/resume_upload.png)
+
+---
+
+### 🎤 Interview Question
+
+![Interview](screenshots/interview.png)
+
+---
+
+### 📊 AI Feedback
+
+![Feedback](screenshots/feedback.png)
+
+---
+
+### 📈 Performance Dashboard
+
+![Dashboard](screenshots/dashboard1.png,dashboard2.png)
+
+---
+
+### 📄 PDF Report
+
+![Report](screenshots/report.png)
 
 ## 🌟 Future Improvements
 
