@@ -152,10 +152,15 @@ streamlit run app.py
 ![Feedback](Screenshots/feedback.png)
 
 ---
-
 ### 📈 Performance Dashboard
 
-![Dashboard](Screenshots/dashboard1.png,dashboard2.png)
+#### Dashboard - Part 1
+
+![Dashboard Part 1](Screenshots/dashboard1.png)
+
+#### Dashboard - Part 2
+
+![Dashboard Part 2](Screenshots/dashboard2.png)
 
 ---
 
